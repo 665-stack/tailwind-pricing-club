@@ -5,6 +5,8 @@ const Header = () => {
     return (
         <div>
             <Navbar></Navbar>
+            <br />
+            <br />
             <h2 className='text-3xl font-bold'>Save your most of money  </h2>
             <p className='text-1xl font-bold'>By giving your money to me!!!</p>
         </div>

@@ -8,10 +8,10 @@ const Navbar = () => {
         { id: 3, name: 'Deals', link: '/.deals' },
         { id: 4, name: 'Coupons', link: '/.coupons' },
         { id: 5, name: 'Contact', link: '/.contact' },
-    ]
+    ];
     return (
         <nav >
-            <ul>
+            <ul className='md:flex justify-center bg-neutral-900 py-4'>
                 {
                     routes.map(route => <Link route={route} key={route.id}></Link>)
                 }
